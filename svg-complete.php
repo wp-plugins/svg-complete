@@ -3,7 +3,7 @@
  * Plugin Name: SVG Complete
  * Plugin URI: http://www.automatic-rock.nl/svg-zoom-pan-drag-wordpress/
  * Description: Upload SVG files to your WordPress and add them to your post or pages via the SVG button in your visual editor. Here you can even select to have zoom and pan (mouse drag) on your svg, useful for maps for example. You can also set image size, a fallback image and an alt text for SEO
- * Version: 1.0.1
+ * Version: 1.0.2
  *
  * Author: Automatic Rock
  * Author URI: http://www.automatic-rock.nl
@@ -71,7 +71,7 @@ function generate_svg_code($atts, $content = null) {
     'align' => '',
     ), $atts ); 
     
-    if($content!='') $svgcapclass= 'wp-caption'; else $svgcapclass= '';         // If svg-img has caption add default wordpress class
+    if($content!='') $svgcapclass= 'wp-caption'; else $svgcapclass= 'svgnocaption';         // If svg-img has caption add default wordpress class
     if(empty($svga['height'])) $svga['height']=100;                             // Default height is 100px
     if(empty($svga['width'])) $svga['width']=100;                               // Default width is 100px
     

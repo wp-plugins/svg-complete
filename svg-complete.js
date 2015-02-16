@@ -238,7 +238,8 @@
                             'values': [
                                 {text: 'Left', value: 'alignleft'},
                                 {text: 'Center', value: 'aligncenter'},
-                                {text: 'Right', value: 'alignright'}
+                                {text: 'Right', value: 'alignright'},
+                                {text: 'None', value: 'svgnoalign'}
                              ]
                         },
                         {

@@ -5,7 +5,7 @@ Tags: SVG, Image, Graphics, Zoom, Drag, Pan, Upload, fallback, Vector, Style, Su
 Donate link: http://www.automatic-rock.nl/svg-zoom-pan-drag-wordpress/
 Requires at least: 3.9
 Tested up to: 4.1
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
   
@@ -30,6 +30,7 @@ List of Features:
 Example:
 [svg-complete align="aligncenter" class="my_own_class" svg_path="http://upload.wikimedia.org/wikipedia/commons/9/95/World_map_frigid.svg" alt_path="www.mysite.com/images/worldmap.png" alt="wiki world map" width="760" height="400" zoompan="zoom_button"]Wiki Worldmap[/svg-complete]
 
+See http://www.automatic-rock.nl/svg-zoom-pan-drag-wordpress/ for a complete instruction and examples
 
 == Installation ==
 1. Upload the folder to the "/wp-content/plugins/" directory.
@@ -40,10 +41,29 @@ Shortcode-Example:
 [svg-complete align="aligncenter" class="my_own_class" svg_path="http://upload.wikimedia.org/wikipedia/commons/9/95/World_map_frigid.svg" alt_path="www.mysite.com/images/worldmap.png" alt="wiki world map" width="760" height="400" zoompan="zoom_button"]Wiki Worldmap[/svg-complete]
 
 
+== Screenshots ==
+
+1. Add your svg image easily via the button.
+2. Select your svg file and options via an easy menu.
+3. Use the media uploader to select you svg file and (if you want) a fallback image.
+4. Set the other options as you please.
+5. Press OK, press Publish and there you go :)
+
 == Frequently Asked Questions ==
+
+No Questions asked yet. Feel free to ask!
 
 
 
 == Changelog ==
+
 = 1.0.0 =
 * Initial release.
+
+= 1.0.1 =
+* description edits.
+
+
+= 1.0.2 =
+* description edits.
+* add option for no align set
